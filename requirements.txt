@@ -1,0 +1,20 @@
+# AI Video System - Dependencies
+
+# Core
+python-dotenv>=1.0.0
+
+# Video generation
+moviepy>=1.0.3
+pillow>=10.0.0
+numpy>=1.24.0
+
+# AI (optional - system works without these in demo mode)
+openai>=1.0.0
+
+# YouTube API (optional - for uploads)
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.1.0
+
+# Utilities
+requests>=2.31.0
